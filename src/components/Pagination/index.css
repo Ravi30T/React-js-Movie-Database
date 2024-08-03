@@ -1,0 +1,40 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-right: 10px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: lightgoldenrodyellow;
+  width: 50px;
+  font-weight: 500;
+}
+
+.next-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 10px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: lightgoldenrodyellow;
+  width: 50px;
+  font-weight: 500;
+}
+
+.page-no {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
